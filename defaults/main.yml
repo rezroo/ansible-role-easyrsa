@@ -10,6 +10,9 @@ easyrsa_version: master
 # - https://github.com/OpenVPN/easy-rsa/tags
 # - https://github.com/OpenVPN/easy-rsa/branches
 
+easyrsa_dir: /usr/lib/easyrsa/
+# easy-rsa installation folder
+
 easyrsa_pki_dir: /etc/easyrsa/pki
 # The folder on the host where certs, keys etc will be located.
 
