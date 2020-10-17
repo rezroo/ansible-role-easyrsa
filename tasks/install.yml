@@ -29,6 +29,11 @@
     recurse: true
     mode: o+rX
 
+- name: Set permissions executable
+  file:
+    path: "{{ easyrsa_dir }}/easyrsa"
+    mode: 600
+
 - name: Install binary
   copy:
     content: |
